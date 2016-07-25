@@ -1,4 +1,4 @@
-﻿# Test Yourself: Answers
+# Test Yourself: Answers
 
 This is the file you'll use to add your answers to the [Test Yourself exercise](http://www.vikingcodeschool.com/web-development-basics/getting-comfortable-with-git-and-the-command-line). You will add them via pull request.
 
@@ -169,7 +169,10 @@ A DNS server is a special kind of computer that links human-readable names of we
 
 For example, instead of typing www.google.com and asking a DNS server to look-up the address of google for you, you can simply enter http://74.125.224.72/ directly into your browser!
 
-*Contributed by [Daniel Au](https://github.com/dakmau)*
+DNS stands for Domain Name Systems.
+
+*Contributed by [Daniel Au](https://github.com/dakmau)* *Contributed by [Jethray D. Tecson](https://github.com/jethjt)* 
+
 
 
 #### What is HTML and how is it used?
@@ -268,8 +271,10 @@ prevent unwanted access and/or modification of files. Permissions often are for 
 
 #### How do you find information about a particular command?
 
-`$ man <cmd>`
-*Contributed by [Michelle Ho](http://github.com/michelleyho)*
+`$ man <cmd>` or 'help <cmd>' on Windows.
+
+*Contributed by [Michelle Ho](http://github.com/michelleyho)* *Contributed by [Jethray D. Tecson](https://github.com/jethjt)*  
+
 
 #### What is a "Superuser" and how do you execute commands as this user?
 
@@ -764,12 +769,23 @@ The other way is typing a git commit -am "Your message", which will both stage a
 
 *Contributed by [Coco Matthey](https://github.com/cocoyeh)*
 
+#### How do you create a new file?
+
+touch file_name.file_type; for example, to create a new text file type "touch random_text.txt"
+
+*Contributed by [Jethray D. Tecson](http://github.com/jethjt)*
+
+#### How do you create a new file?
+
+touch file_name.file_type; for example, to create a new text file type "touch random_text.txt"
+
+*Contributed by [Jethray D. Tecson](http://github.com/jethjt)*
+
 #### What is the difference between staging and committing changes?
 
 Staging is moving files from Modified to Staged by issuing a git command, "git add your_file", "git add . ", or "git add -A". Committing is moving files from Staged to Unmodified.
 
 *Contributed by [Coco Matthey](https://github.com/cocoyeh)*
-
 
 
 ### Remotes
